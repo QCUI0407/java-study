@@ -1,3 +1,4 @@
+package loop;
 public class IfDemo{
     public static void main(String[] args) {
         //格式一：需求： 心跳（60-100）之间是正常，否则系统进一步检查
@@ -20,7 +21,7 @@ public class IfDemo{
         //格式三 需求：绩效系统
         int score =99;
         if(score >= 0 && score<60){
-            System.out.println("评分C");
+            System.out.println("CCC");
         }else if(score>=60 && score<80){
             System.out.println("BBBB");
         }else if(score>=80 && score<100){
