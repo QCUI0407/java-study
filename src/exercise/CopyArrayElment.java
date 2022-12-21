@@ -13,7 +13,7 @@ public class CopyArrayElment {
     }
 
     // 打印数组
-    private static void printArray(int[] arr) {
+    public static void printArray(int[] arr) {
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(i == arr.length - 1 ? arr[i] : arr[i] + ",");
