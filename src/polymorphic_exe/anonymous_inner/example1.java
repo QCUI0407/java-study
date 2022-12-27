@@ -26,16 +26,17 @@ public class example1 {
         /*
          * ***匿名内部类使用
          */
-        btn.addActionListener(e -> JOptionPane.showMessageDialog(win, "easy click!!"));
+        
         btn.addActionListener(new AbstractAction() {
-
+            
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(win,"click click");
             }
             
         });
-
+        
+        btn.addActionListener(e -> JOptionPane.showMessageDialog(win, "easy click!!")); //简化写法
 
         //3. 把按钮对象添加到**桌布**展示
         panel.add(btn);
