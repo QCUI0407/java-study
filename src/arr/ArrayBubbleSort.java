@@ -1,5 +1,7 @@
 package arr;
 
+import java.util.Arrays;
+
 public class ArrayBubbleSort {
     public static void main(String[] args) {
         // 1.定义一个数组
@@ -22,5 +24,6 @@ public class ArrayBubbleSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
         }
+        System.out.println(Arrays.toString(arr));
     }
 }
