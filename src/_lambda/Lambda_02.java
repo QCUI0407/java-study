@@ -14,15 +14,19 @@ public class Lambda_02 {
 
         /*简化 */
         Swimming s1 = () -> {
-            System.out.println("override--------");
+            System.out.println("--------override--------");
         };
         go(s1);
 
         /*再简化 */
         System.out.println("----------------------------");
         go(() -> {
-            System.out.println("----------override--------");
+            System.out.println("-----override-----");
         });
+
+        /*继续简化 */
+        System.out.println("----------------------------");
+        go(() -> System.out.println("--override--"));
 
         
     }
