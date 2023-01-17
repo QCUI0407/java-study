@@ -9,7 +9,7 @@ import java.io.OutputStream;
 public class OutputStreamDemo {
     public static void main(String[] args) throws Exception {
     //   String filePath = "C:\\Users\\cuiqi\\OneDrive\\Desktop\\java-study\\src\\out.txt";
-        String filePath = "src//out.txt";
+        String filePath = "src\\out.txt";
 
         File file = new File(filePath);
         System.out.println("---------"+file);
